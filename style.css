@@ -1,0 +1,187 @@
+#main-header {
+    background: #1C2833;
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 40px;
+}
+
+.caja_animada {
+    margin-left: 30%;
+    margin-top: -4%;
+    box-shadow: 0px 0px 8px 3px #ccc;
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border: rgb(61, 58, 58) 1 px;
+    text-align: center;
+}
+
+.ubicationletter ,ubicationletter3{
+    margin-left: -85px;
+  
+}
+
+.franja {
+    margin-top: 90px;
+    background: rgb(255, 212, 20);
+    width: 100%;
+    height: 200px;
+}
+
+#imagen {
+    right: 50px;
+    width: 15%;
+    height: 65px;
+    padding: auto;
+    margin: -10px;
+    margin-left: 28.5%;
+}
+
+#main-content {
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+#colorblue {
+    color: rgb(46, 181, 243);
+}
+
+#colorgray {
+    color: rgb(214, 206, 206);
+}
+
+#position {
+    margin-top: 50px;
+}
+
+#inputText {
+    margin-left: -52px;
+}
+
+#size1 {
+    margin-left: -1.8em;
+    width: 125%;
+}
+
+#size2 {
+    margin-left: -.5em;
+    width: 125%;
+}
+
+#size3 {
+    margin-left: -3.7em;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.3em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-top: 80px;
+    /* Relleno superior igual a la altura de la cabecera*/
+}
+@media (max-width:768px) {
+    .caja_animada{
+        width: 60%;
+        
+        
+    }
+    .franja{
+        width: 100%;
+    }
+    #size1{
+        width: 100%;
+    }
+
+}
+@media (max-width:360px) {
+    html{
+        background: rgb(224, 222, 222);
+    }
+   
+    .caja_animada{
+        width: 90%;
+        background: transparent;
+        margin-top: -30%;
+        box-shadow: none;
+        margin-left: 20px;
+        
+        
+    }
+    .franja{
+       height: 10px;
+    }
+#imagen{
+    width:50%;
+    margin-left: 5em;
+    
+}
+form{
+    
+    margin-top: 30%;
+
+}
+
+#size1{
+    -webkit-border-radius: 0px;
+    width: 125%;
+    margin-left: -1.9em;
+    
+    
+}
+#size2{
+    width: 70%;
+    margin-left: -1.9em;
+    -webkit-border-radius: 0px;
+}
+#size3{
+    width: 56%;
+    height: auto;
+    margin-left: 8.8em;
+    margin-top: -2.4rem;
+    -webkit-border-radius: 0px;
+    
+}
+.ubicationletter {
+  position: absolute;
+  top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 6px;
+}
+.ubicationletter3{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 25%;
+    
+}
+#inputText{
+    margin-left: -1.9em;
+    width: 125%;
+    margin-top: -1%;
+    -webkit-border-radius: 0px;
+  
+}
+#position {
+    margin-top: 8%;
+}
+}
